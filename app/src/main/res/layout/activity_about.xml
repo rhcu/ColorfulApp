@@ -11,13 +11,13 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Colorful App \n Author: https://github.com/rhcu \n Date of creation: 27.06.2017 "
+        android:text="Colorful App \nAuthor: https://github.com/rhcu \nDate of creation: 27.06.2017 "
         android:textSize="24sp"
         tools:textColor="Black" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="161dp"
         app:srcCompat="@drawable/rainbow" />
 </LinearLayout>

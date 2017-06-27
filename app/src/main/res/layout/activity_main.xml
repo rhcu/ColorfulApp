@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/white"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_x="30dp"
         android:layout_y="50dp"
@@ -21,7 +21,7 @@
 
     <Button
         android:id="@+id/yellow"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_x="30dp"
         android:layout_y="250dp"
@@ -33,7 +33,7 @@
 
     <Button
         android:id="@+id/red"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_x="30dp"
         android:layout_y="350dp"
@@ -45,7 +45,7 @@
 
     <Button
         android:id="@+id/green"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_x="30dp"
         android:layout_y="150dp"
@@ -56,19 +56,9 @@
         tools:layout_editor_absoluteY="144dp" />
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="182dp"
-        android:layout_height="124dp"
-        android:layout_x="117dp"
-        android:layout_y="229dp"
-        android:text="Press the desired color lable"
-        android:textSize="20sp"
-        tools:textColor="Black" />
-
     <Button
         android:id="@+id/forestGreen"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_x="297dp"
         android:layout_y="200dp"
@@ -80,7 +70,7 @@
 
     <Button
         android:id="@+id/darkBlue"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_x="297dp"
         android:layout_y="300dp"
@@ -92,7 +82,7 @@
 
     <Button
         android:id="@+id/springGreen"
-        android:layout_width="96dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_x="297dp"
         android:layout_y="400dp"
@@ -104,7 +94,7 @@
 
     <Button
         android:id="@+id/violet"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_x="297dp"
         android:layout_y="100dp"
@@ -117,7 +107,7 @@
 
     <Button
         android:id="@+id/blue"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_x="297dp"
         android:layout_y="0dp"
@@ -129,8 +119,8 @@
 
     <Button
         android:id="@+id/Pink"
-        android:layout_width="wrap_content"
-        android:layout_height="56dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
         android:layout_x="30dp"
         android:layout_y="450dp"
         android:background="@color/colorAccent"
@@ -140,12 +130,22 @@
         tools:layout_editor_absoluteY="192dp" />
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="129dp"
+        android:layout_height="124dp"
+        android:layout_x="147dp"
+        android:layout_y="227dp"
+        android:text="Press the desired color lable"
+        android:textSize="20sp"
+        tools:textColor="Black" />
+
+    <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
-        android:layout_height="28dp"
-        android:layout_x="165dp"
-        android:layout_y="477dp"
-        android:text="Info about this app"
-        android:onClick="infoClick"/>
+        android:layout_height="wrap_content"
+        android:layout_x="283dp"
+        android:layout_y="460dp"
+        android:onClick="infoClick"
+        android:text="Info about this app" />
 
 </AbsoluteLayout>
