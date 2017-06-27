@@ -139,4 +139,13 @@
         tools:layout_editor_absoluteX="230dp"
         tools:layout_editor_absoluteY="192dp" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_x="165dp"
+        android:layout_y="477dp"
+        android:text="Info about this app"
+        android:onClick="infoClick"/>
+
 </AbsoluteLayout>
