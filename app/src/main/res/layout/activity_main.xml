@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/absoluteLayout"
+    tools:context="com.example.colorful.MainActivity">
+
+    <Button
+        android:id="@+id/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="50dp"
+        android:background="@color/white"
+        android:onClick="onWhiteButtonClick"
+        android:text="White"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <Button
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="250dp"
+        android:background="@color/yellow"
+        android:onClick="onClick"
+        android:text="Yellow"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <Button
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="350dp"
+        android:background="@color/red"
+        android:onClick="onRedButtonClick"
+        android:text="Red"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Button
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="150dp"
+        android:background="@color/green"
+        android:onClick="onGreenButtonClick"
+        android:text="Green"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="182dp"
+        android:layout_height="124dp"
+        android:layout_x="117dp"
+        android:layout_y="229dp"
+        android:text="Press the desired color lable"
+        android:textSize="20sp"
+        tools:textColor="Black" />
+
+    <Button
+        android:id="@+id/forestGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="297dp"
+        android:layout_y="200dp"
+        android:background="@color/lightGreen"
+        android:onClick="onForestGreenButtonClick"
+        android:text="Forest Green"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Button
+        android:id="@+id/darkBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="297dp"
+        android:layout_y="300dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="onDarkBlueButtonClick"
+        android:text="Dark Blue"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/springGreen"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_x="297dp"
+        android:layout_y="400dp"
+        android:background="@color/lasur"
+        android:onClick="onSpringGreenButtonClick"
+        android:text="Spring Green"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/violet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="297dp"
+        android:layout_y="100dp"
+        android:background="@color/violet"
+        android:onClick="onVioletButtonClick"
+        android:text="Violet"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="440dp"
+        tools:layout_y="100dp" />
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="297dp"
+        android:layout_y="0dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onBlueButtonClick"
+        android:text="Blue"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <Button
+        android:id="@+id/Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_x="30dp"
+        android:layout_y="450dp"
+        android:background="@color/colorAccent"
+        android:onClick="onPinkButtonClick"
+        android:text="Pink"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+</AbsoluteLayout>
