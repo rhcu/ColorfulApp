@@ -1,5 +1,3 @@
 # ColorfulApp
-Android app that was made with learning purposes. When the user clicks on the desired color label the background changes it's color to this one.
+Android app that was made with learning purposes. When the user clicks on the desired color label the background changes it's color to this one. If clicks on "Info about this app" text, app shows new Activity with information about the app. 
 
-![alt text](https://pp.userapi.com/c841334/v841334446/482d/0mwUaLBK7zY.jpg)
-![alt text](https://pp.userapi.com/c841334/v841334446/4834/EQDwgE5omWQ.jpg)
